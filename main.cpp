@@ -32,7 +32,9 @@ int main()
 		cout << MySub(a, b) << endl;
 		break;
 
-
+	case '/':
+		cout << MyDiv(a, b) << endl;
+		break;
 
 
 	default: cout << " net deistviya";;
