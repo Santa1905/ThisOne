@@ -14,8 +14,13 @@ int main()
 
 
 
+
 	cout << "Pervoe chislo : ";
 	cin >> a;
+
+	cout « "Pervoe chislo : ";
+	cin » a;
+
 
 	cout << "Vtoroe: ";
 	cin >> b;
@@ -29,7 +34,7 @@ int main()
 		cout << MySum(a, b) << endl;
 		break;
 
-	
+
 
 
 	default: cout << " net deistviya";;
