@@ -1,52 +1,38 @@
 #include <iostream>
-#include "funcs.h"
+#include "func.h"
 
 using namespace std;
 
 int main()
 
 {
+
+
 	setlocale(LC_ALL, "Rus");
 	double a, b, c;
 	char z;
 
 
 
-	cout « "Pervoe chislo : ";
-	cin » a;
+	cout << "Pervoe chislo : ";
+	cin >> a;
 
-	cout « "Vtoroe: ";
-	cin » b;
+	cout << "Vtoroe: ";
+	cin >> b;
 
-	cout « "Deistvie: ";
-	cin » z;
+	cout << "Deistvie: ";
+	cin >> z;
 
 	switch (z)
 	{
 	case '+':
-		cout « " + in progress";
+		cout << MySum(a, b) << endl;
 		break;
 
-	case '-':
-		cout « " - in progress";
-		break;
-
-	case "*":
-		cout « " * in progress";
-		break;
+	
 
 
-	case '/':
-		if (b == 0) {
-			cout « "Nelza" « endl;
-		}
-		else
-			cout « " / in progress";
-
-		break;
-
-
-	default: cout « " net deistviya";;
+	default: cout << " net deistviya";;
 
 
 	}
