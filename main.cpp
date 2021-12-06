@@ -36,6 +36,9 @@ int main()
 		cout << MyDiv(a, b) << endl;
 		break;
 
+        case '*':
+		cout << MyMul(a, b) << endl;
+		break;
 
 	default: cout << " net deistviya";;
 
