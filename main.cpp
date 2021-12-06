@@ -1,10 +1,9 @@
 #include <iostream>
-#include "func.h"
+#include "funcs.h"
 
-using namespace std;
+using namespace std; 
 
 int main()
-
 {
 
 
@@ -33,13 +32,18 @@ int main()
 		cout << MySub(a, b) << endl;
 		break;
 
-	
+	case '/':
+		cout << MyDiv(a, b) << endl;
+		break;
 
+        case '*':
+		cout << MyMul(a, b) << endl;
+		break;
 
 	default: cout << " net deistviya";;
 
 
 	}
 	return 0;
-
 }
+
