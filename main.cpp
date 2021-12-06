@@ -1,10 +1,9 @@
 #include <iostream>
-#include "func.h"
+#include "funcs.h"
 
-using namespace std;
+using namespace std; 
 
 int main()
-
 {
 
 
@@ -33,7 +32,7 @@ int main()
 		cout << MySub(a, b) << endl;
 		break;
 
-	
+
 
 
 	default: cout << " net deistviya";;
@@ -41,5 +40,5 @@ int main()
 
 	}
 	return 0;
-
 }
+

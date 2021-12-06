@@ -1,3 +1,4 @@
+
 #include "func.h"
 
 double MySum(double a, double b)
