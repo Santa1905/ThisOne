@@ -1,4 +1,7 @@
 
 #include "funcs.h"
 
-//реализация функций
+double MySub(double a, double b)
+{
+	return a - b;
+}
