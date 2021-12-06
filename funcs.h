@@ -2,6 +2,6 @@
 #ifndef __FUNCS_H__
 #define __FUNCS_H__
 
-//объявление функций 
+double MySub(double, double);
 
 #endif // __FUNCS_H__

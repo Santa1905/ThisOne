@@ -10,8 +10,6 @@ int main()
 	double a, b, c;
 	char z;
 
-
-
 	cout « "Pervoe chislo : ";
 	cin » a;
 
@@ -28,7 +26,7 @@ int main()
 		break;
 
 	case '-':
-		cout « " - in progress";
+		cout « MySub(a, b) « endl;
 		break;
 
 	case "*":
